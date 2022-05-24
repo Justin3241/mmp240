@@ -13,6 +13,16 @@ p, h1, h2, h3 {
   margin-bottom: 1em;
 }
 
+a{
+  color: #4876F5;
+  text-decoration: none;
+}
+
+a:hover{
+color:lightblue;
+}
+
+
 #wrapper {
   position: relative;
   max-width: 1200px;
@@ -93,7 +103,7 @@ h1 {
   background-size: cover;
   background-position: center;
   height: 15em;
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -103,6 +113,7 @@ h1 {
 
 .news h3 {
   margin: 1em;
+  margin-left: 0;
 }
 
 .news h4 {
@@ -149,6 +160,11 @@ h1 {
 
 .program-card h4 {
   margin-bottom: 1em;
+}
+
+.banner h2{
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1em;
 }
 
 @media (min-width: 769px) {
